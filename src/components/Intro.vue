@@ -7,7 +7,7 @@
 
         <div v-if="$i18n.locale == 'fr'" class="o-content__body">
           <p>
-            J'ai {{ getAge('1987-06-28') }} ans et je suis développeur web full-stack basé sur la commune de Castres (Tarn, 81). Je suis spécialisé sur le framework PHP Laravel (côté back-end) et le framework Javascript Vue.js (côté front-end).
+            J'ai {{ getAge('1987-06-28') }} ans et je suis développeur web full-stack basé sur la commune de Rieux-Volvestre (Haute-Garonne, 31). Je suis spécialisé sur le framework PHP Laravel (côté back-end) et le framework Javascript Vue.js (côté front-end).
           </p>
           <p>
             Ma passion pour le développement web me pousse à donner le meilleur de moi-même pour chaque projet, ainsi qu'à perfectionner mes connaissances dans le domaine du web en me tenant régulièrement informé des dernières innovations.
@@ -19,7 +19,7 @@
 
         <div v-if="$i18n.locale == 'en'" class="o-content__body">
           <p>
-            I'm {{ getAge('1987-06-28') }} and I'm a full-stack web developer based in France (Tarn, Castres). I'm specialized in Laravel PHP framework (for the back-end) and Vue.js Javascript framework (for the front-end).
+            I'm {{ getAge('1987-06-28') }} and I'm a full-stack web developer based in France (Rieux-Volvestre near Toulouse). I'm specialized in Laravel PHP framework (for the back-end) and Vue.js Javascript framework (for the front-end).
           </p>
           <p>
             My passion for web development pushes me to give the best of myself for each project, and to improve my knowledge in the field of web technologies keeping me regularly informed of the latest innovations.

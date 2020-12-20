@@ -4,6 +4,14 @@
     <div class="a-experience-timeline c-timeline t-border-color in-view">
 
       <timeline-item
+        :time="$t('abcube.time')"
+        :heading="$t('abcube.heading')"
+        :title="$t('abcube.title')"
+        :location="$t('abcube.location')"
+        :description="$t('abcube.description')">
+      </timeline-item>
+
+      <timeline-item
         :time="$t('beproject.time')"
         :heading="$t('beproject.heading')"
         :title="$t('beproject.title')"
@@ -72,8 +80,15 @@ export default {
       en: {
         title: 'Experience',
         description: 'My professional career.',
+        abcube: {
+          time: "2019 - Present",
+          heading: "AB Cube",
+          title: "Full Stack Web Developer",
+          location: "Full remote",
+          description: "Development and maintenance of a pharmacovigilance web application (SafetyEasy®). Also in charge of custom developments for major clients such as L'Oréal and the ANSM (Agence nationale de sécurité du médicament et des produits de santé)."
+        },
         beproject: {
-          time: "2016 - Present",
+          time: "2016 - 2019",
           heading: "BeProject",
           title: "Full Stack Web Developer & Graphist",
           location: "Mazamet, France",
@@ -118,12 +133,19 @@ export default {
       fr: {
         title: 'Expérience',
         description: 'Mon parcours professionel.',
+        abcube: {
+          time: "2019 - Présent",
+          heading: "AB Cube",
+          title: "Développeur Web Full Stack",
+          location: "Télétravail (100%)",
+          description: "Développement et maintenance d'une application web de pharmacovigilance (SafetyEasy®). Aussi en charge des développements sur mesure pour des clients majeurs comme L'Oréal et l'ANSM (Agence nationale de sécurité du médicament et des produits de santé)."
+        },
         beproject: {
-          time: "2016 - Présent",
+          time: "2016 - 2019",
           heading: "BeProject",
           title: "Développeur Web Full Stack & Graphiste",
           location: "Mazamet, France",
-          description: "Développement, déploiement et maintenance d'applications web métier pour des grands comptes dans le domaine pharmaceutique et automobile notamment. Supervision d'une équipe de 4-5 développeurs web. Mise en place et maintenance d'infrastructures serveurs pour le web."
+          description: "Développement, déploiement et maintenance d'applications web métier pour des grands comptes dans le domaine pharmaceutique (Pierre Fabre) et automobile (Peugeot Maurel) notamment. Supervision d'une équipe de 4-5 développeurs web. Mise en place et maintenance d'infrastructures serveurs pour le web."
         },
         unpixel: {
           time: "2015 - 2017",

@@ -15,12 +15,12 @@
       </progress-bar>
 
       <progress-bar
-        title="Javascript"
-        pourcent="70">
+        title="PHP"
+        pourcent="80">
       </progress-bar>
 
       <progress-bar
-        title="PHP"
+        title="Javascript"
         pourcent="75">
       </progress-bar>
 
