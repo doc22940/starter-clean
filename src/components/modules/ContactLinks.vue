@@ -3,8 +3,8 @@
 
     <link-item
       :title="$t('localisation')"
-      link="https://goo.gl/maps/bRkXpWzXjf52"
-      content="Castres, France">
+      link="https://goo.gl/maps/LSnCVwknKyiL4P6U8"
+      content="Rieux-Volvestre, France">
     </link-item>
 
     <link-item
@@ -15,8 +15,8 @@
 
     <link-item
       :title="$t('web')"
-      link="http://julienmonty.com"
-      content="julienmonty.com">
+      link="https://konpa.github.io"
+      content="konpa.github.io">
     </link-item>
 
     <link-item
