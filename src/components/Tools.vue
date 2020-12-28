@@ -41,7 +41,7 @@
 
             <progress-bar
                 title="Illustrator"
-                pourcent="70">
+                pourcent="80">
             </progress-bar>
 
             <div class="o-grid__col-sm-12">
